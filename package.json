@@ -1,0 +1,29 @@
+{
+  "name": "Work-Hours-General-Software",
+  "main": "src/server/index.js",
+  "scripts": {
+    "build": "webpack",
+    "build-watch": "webpack --watch",
+    "live": "live-server --port=3000 --ignore=node_modules --no-browser",
+    "serve": "nodemon src/server/index.js --ignore node_modules/ --ignore build/ --ignore src/client"
+  },
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "css-loader": "^0.26.0",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "live-server": "^1.1.0",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "redux": "^3.6.0",
+    "webpack": "^1.13.3"
+  }
+}
